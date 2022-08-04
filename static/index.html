@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Address book information</h1>
+    </header>       
+    <main>
+        <div class="modifierContainer">
+            <button class="btn-add" onclick="Modal.toggle()">Add new address</button>
+            <div class="searchField">
+                <label class="sr-only">Search:</label>
+                <div class="searchContainer">
+                    <img src="./icons/magnifing.png" alt="search"/>
+                    <input type="text" placeholder="Search an address by name" onchange="searchAddress(this.value)"/>
+                </div>                
+            </div>
+        </div>
+    </main>
+    <div class="modal-overlay">
+        <div class="modal">
+            <div id="form">
+                <h2>New address</h2>
+                <form action="" onsubmit="Form.submit(event)">
+                    <div class="input-group">
+                        <label class="sr-only" for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name"/>
+                    </div>
+                    <div class="input-group">
+                        <label class="sr-only" for="street">Street</label>
+                        <input type="text" name="street" id="street" placeholder="Street"/>
+                    </div>
+                    <div class="input-group">
+                        <label class="sr-only" for="city">City</label>
+                        <input type="text" name="city" id="city" placeholder="City"/>
+                    </div>
+                    <div class="input-group">
+                        <label class="sr-only" for="state">State</label>
+                        <input type="text" name="state" id="state" placeholder="State"/>
+                    </div>
+                    <div class="input-group actions">
+                        <a href="#" class="btn-cancel"  onclick="Modal.toggle()">Cancel</a>
+                        <button class="btn-save" type="submit">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scripts.js"></script>
+</html>

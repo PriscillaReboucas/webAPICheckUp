@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "Priscilla",
+        "street": "750 Schultz Route",
+        "city": "Port Elmerburgh",
+        "state": "South Dakota"
+    },
+    {
+        "id": 2,
+        "name": "Felipe",
+        "street": "4626 Myron Vista",
+        "city": "Port Gloria",
+        "state": "Georgia"
+    },
+    {
+        "id": 3,
+        "name": "Fenris",
+        "street": "5078 O'Kon Hills",
+        "city": "MacGyverport",
+        "state": "Louisiana"
+    },
+    {
+        "id": 4,
+        "name": "Eva",
+        "street": "54351 Spinka Corners",
+        "city": "Cordiaburgh",
+        "state": "Oklahoma"
+    },
+    {
+        "id": 5,
+        "name": "Hati",
+        "street": "97414 Dietrich Station",
+        "city": "West Joycehaven",
+        "state": "New Jersey"
+    },
+    {
+        "id": 6,
+        "name": "Gustav",
+        "street": "77788 Hodkiewicz Crest",
+        "city": "North Zacheryville",
+        "state": "Virginia"
+    },
+    {
+        "id": 7,
+        "name": "Julia",
+        "street": "061 Gutkowski Estate",
+        "city": "East Raymond",
+        "state": "Virginia"
+    },
+    {
+        "id": 8,
+        "name": "Maria",
+        "street": "27028 Jewel Green",
+        "city": "Port Scot",
+        "state": "Idaho"
+    }
+]
+
